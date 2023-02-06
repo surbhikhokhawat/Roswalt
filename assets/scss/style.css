@@ -1,0 +1,86 @@
+.btn-success {
+  color: #fff;
+  background-color: #28a745 !important;
+  border-color: #28a745;
+}
+
+.collapse {
+  visibility: visible !important;
+} /*# sourceMappingURL=style.css.map */
+
+.about_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#button_customizable {
+  color: white;
+  border: 1px solid white;
+
+  padding-inline: 30px;
+  padding-block: 10px;
+}
+#button_customizable:hover {
+  color: black;
+  /* border: 1px solid #daaa73; */
+  border: 1px solid black;
+  padding-inline: 30px;
+  padding-block: 10px;
+}
+
+
+.checkbox_class {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox_class input {
+  width: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_container {
+    flex-direction: column;
+  }
+  .about-area {
+    display: flex;
+    justify-content: center;
+  }
+  .responsive_modal {
+    margin-top: 1px;
+  }
+  .mapouter-address {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+  .col-xl-auto {
+    padding-left: 0px;
+  }
+  .partner-item {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .about-area {
+    display: flex;
+    justify-content: center;
+  }
+  .mapouter-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
