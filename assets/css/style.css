@@ -54,7 +54,7 @@ h6 {
 }
 
 a {
-  color: #daaa73;
+  color: #CEAF7B;
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -65,13 +65,13 @@ img {
 }
 
 a:hover {
-  color: #daaa73;
+  color: #CEAF7B;
   transition: all 0.4s ease-in-out 0s;
 }
 
 a:hover,
 a:focus {
-  color: #daaa73;
+  color: #CEAF7B;
   text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ p {
 .form-control:focus {
   box-shadow: none;
   outline: 0 none;
-  border-bottom: 1px solid #daaa73;
+  border-bottom: 1px solid #CEAF7B;
 }
 
 .btn:focus {
@@ -128,11 +128,11 @@ button:focus {
   text-transform: capitalize;
   letter-spacing: 0.5px;
   font-weight: 600;
-  border: 1px solid #daaa73;
+  border: 1px solid #CEAF7B;
   background: transparent;
   border-radius: 0px;
   cursor: pointer;
-  color: #daaa73;
+  color: #CEAF7B;
   margin-top: 25px;
   overflow: hidden;
   white-space: nowrap;
@@ -149,7 +149,7 @@ button:focus {
   content: "";
   width: 0;
   height: 100%;
-  background: #daaa73;
+  background: #CEAF7B;
   position: absolute;
   left: 0;
   top: 0;
@@ -160,7 +160,7 @@ button:focus {
 
 .button:after {
   transition-delay: 0s;
-  background: #daaa73;
+  background: #CEAF7B;
   opacity: 1;
 }
 
@@ -182,7 +182,7 @@ button:focus {
 }
 
 .color-text {
-  color: #daaa73;
+  color: #CEAF7B;
 }
 
 dl,
@@ -225,7 +225,7 @@ ul {
 }
 
 .section-title h5 {
-  color: #daaa73 !important;
+  color: #CEAF7B !important;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
@@ -267,7 +267,7 @@ ul {
   top: 0;
   right: 15px;
   color: #ffffff;
-  background: #daaa73;
+  background: #CEAF7B;
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -491,7 +491,7 @@ ul {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #daaa73 !important;
+  background-color: #CEAF7B !important;
   width: 7px;
   height: 7px;
   transition: 0.3s;
@@ -499,7 +499,7 @@ ul {
 
 .owl-theme .owl-dots .owl-dot:hover span {
   background-color: transparent;
-  border: 2px solid #daaa73;
+  border: 2px solid #CEAF7B;
   transition: 0.3s;
 }
 
@@ -521,7 +521,7 @@ ul {
   position: absolute;
   border-radius: 50%;
   border: 2px solid #fff;
-  border-bottom: 2px solid #daaa73;
+  border-bottom: 2px solid #CEAF7B;
 }
 
 #preloader .line:nth-child(1) {
@@ -623,7 +623,7 @@ ul {
 
 .header-navber-area .nav-top-bar .top-social li a:hover,
 .header-navber-area .nav-top-bar .top-social li a:focus {
-  color: #daaa73;
+  color: #CEAF7B;
 }
 
 .header-navber-area .nav-top-bar .opening-hours {
@@ -642,7 +642,7 @@ ul {
 }
 
 .header-navber-area .nav-top-bar.template-color-bg {
-  background: #daaa73;
+  background: #CEAF7B;
   border-bottom: none;
 }
 
@@ -763,13 +763,13 @@ ul {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #daaa73;
+  background-color: #CEAF7B;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #daaa73;
+  background-color: #CEAF7B;
 }
 
 .navbar-toggler {
@@ -1042,7 +1042,7 @@ ul {
 }
 
 .services-area .services-single-item h5 {
-  color: #daaa73;
+  color: #CEAF7B;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -1097,11 +1097,11 @@ ul {
 }
 
 .about-content-text .fa {
-  color: #daaa73;
+  color: #CEAF7B;
 }
 
 .about-content-text h3 {
-  color: #daaa73;
+  color: #CEAF7B;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1143,7 +1143,7 @@ ul {
   height: 60px;
   text-align: center;
   font-size: 25px;
-  color: #daaa73;
+  color: #CEAF7B;
   float: left;
   border-radius: 100%;
   line-height: 62px;
@@ -1479,7 +1479,7 @@ ul {
 }
 
 .team-info span {
-  color: #daaa73;
+  color: #CEAF7B;
   font-size: 16px;
   font-weight: 400;
   display: block;
@@ -1526,7 +1526,7 @@ ul {
 }
 
 .blog-area .blog-slingle-item .blog-content-info h6 a:hover {
-  color: #daaa73;
+  color: #CEAF7B;
 }
 
 .blog-area .blog-slingle-item .blog-content-info h5 {
@@ -1549,7 +1549,7 @@ ul {
 }
 
 .blog-area .blog-slingle-item .author-date b {
-  color: #daaa73;
+  color: #CEAF7B;
   padding-right: 5px;
   letter-spacing: 4px;
 }
@@ -1619,7 +1619,7 @@ textarea:focus {
 }
 
 .single-store-location h3 {
-  color: #daaa73;
+  color: #CEAF7B;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -1781,7 +1781,7 @@ textarea:focus {
   letter-spacing: 1.3px;
   font-weight: 700;
   color: #313133;
-  background: #daaa73;
+  background: #CEAF7B;
   background: linear-gradient(90deg, rgb(218, 170, 115), 0deg, rgb(218, 170, 115) 100%);
   border: none;
   border-radius: 1000px;
