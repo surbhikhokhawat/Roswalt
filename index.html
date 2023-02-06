@@ -145,7 +145,7 @@
     <div>
       <div>
         <div>
-          <div class="bg-img valign" style="height: 850px;" data-background="assets/img/banner-1.jpg?ver=12"
+          <div class="bg-img valign" style="height: 850px;" data-background="assets/img/Banner.jpg?ver=12"
             data-overlay-dark="5">
             <div class="container">
               <div class="row">
@@ -404,27 +404,27 @@
           <div class="container">
             <div class="row blog_container justify-content-center">
               <div class="partner-item col-md-3">
-                <img src="assets/img/Play-Area.webp" alt="partner-image" />
+                <img src="assets/img/7.jpg" alt="partner-image" />
                 <h5>Indoor Games</h5>
               </div>
               <div class="partner-item col-md-3">
-                <img src="assets/img/Amphitheatre.webp" alt="partner-image" />
+                <img src="assets/img/1.jpg" alt="partner-image" />
                 <h5>Jogging Track</h5>
               </div>
               <div class="partner-item col-md-3">
-                <img src="assets/img/arkade-hall.webp" alt="partner-image" />
+                <img src="assets/img/7.jpg" alt="partner-image" />
                 <h5>Senior Citizen zone</h5>
               </div>
               <div class="partner-item col-md-3">
-                <img src="assets/img/Basketball-Court.webp" alt="partner-image" />
+                <img src="assets/img/1.jpg" alt="partner-image" />
                 <h5>Visitors Parking</h5>
               </div>
               <div class="partner-item col-md-3">
-                <img src="assets/img/Meditation-Deck.webp" alt="partner-image" />
+                <img src="assets/img/5.jpg" alt="partner-image" />
                 <h5>Gym</h5>
               </div>
               <div class="partner-item col-md-3">
-                <img src="assets/img/Pool-Deck.webp" alt="partner-image" />
+                <img src="assets/img/3.jpg" alt="partner-image" />
                 <h5>Swimming Pool</h5>
               </div>
             </div>
@@ -440,7 +440,7 @@
         <div class="w-full md:w-1/2 md:pr-10 wow fadeInUp" data-wow-delay="0.2s">
           <div class="about-content">
             <div class="about-content-text">
-              <h2>Rohan Nidita</h2>
+              <h2>Roswalt Realty</h2>
               <h5>
                 <i class="fa fa-arrow-circle-right"></i> 5 Mins from XION Mall
               </h5>
@@ -472,9 +472,11 @@
           </div>
         </div>
         <div class="w-full md:w-1/2 wow fadeInUp" data-wow-delay="0.4s">
-          <a id="formbutton" href="javascript:void(0)" data-toggle="modal" data-target="#floor-modal">
-            <img src="assets/img/amenities-1.jpeg" class="w-full object-cover" />
-          </a>
+          <div class="owl-carousel banner col-span-2">
+            <img src="/assets/img/amenities-roswalt-1.jpeg" alt="amenities" class="w-full" />
+            <img src="/assets/img/amenities-roswalt-2.jpeg" alt="amenities" class="w-full" />
+            <img src="/assets/img/amenities-roswalt-3.jpeg" alt="amenities" class="w-full" />
+          </div>
         </div>
       </div>
     </div>
@@ -593,8 +595,9 @@
   </div>
   <div class="modal fade apartment-selector" id="floor-modal" tabindex="-1" role="dialog">
     <div class="modal-dialog responsive_modal" role="document">
-      <div class="modal-content">
+      <div class="modal-content pt-[50%] pb-[20%] md:p-0">
         <div class="modal-header text-center">
+          
           <h2 class="text-xl md:text-3xl tracking-tight text-gray-900" style="font-weight: 500">
             Hurry, Register & Book now before price rise!!
           </h2>
@@ -606,7 +609,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="card-form">
-                <img src="assets/img/logo (1).webp" class="img-fluid mb-3"
+                <img src="assets/img/logo (1).webp" class="img-fluid mb-3" 
                   style="height: auto; margin-left: auto; margin-right: auto; max-width: 50%;" />
                 <form class="needs-validation" novalidate method="POST" action="form-action.php" id="modalForm"
                   onsubmit="reDirectToThankyou()">
@@ -794,6 +797,18 @@
       return window.open("thankyou.html", "_blank")
     }
   </script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel.banner").owlCarousel({
+          loop: true,
+          items: 1,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          autoplayHoverPause: true,
+          dots: false,
+        });
+      });
+    </script>
 </body>
 
 </html>
